@@ -1,7 +1,10 @@
 <!doctype html>
-<html>
+<html manifest="/pacman/manifest.php">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--<meta name="viewport" content="width=640px,initial-scale=1.0,user-scalable=no;" />-->
+<meta name="viewport" content="width=device-width,height=300px,initial-scale=.8,minimum-scale=.8"/>
+
   <title>Google Pacman</title>
   <script>
     window.google = {}
@@ -17,12 +20,12 @@
     #logo{width:100%;height:auto;background:black url(src/pacman10-hp.gif) 0 0 no-repeat;position:relative;margin-bottom:9px}
     #logo-l{width:100%;height:auto;background:#990;position:absolute;display:none;overflow:hidden}
     #logo-b{position:absolute;left:0;background:#ff0;height:8px;width:0}
-    #wrapper{width:100%;height:;background:#000;border-radius:8px;}
+    #wrapper{width:100%;;background:#000;border-radius:8px;}
     .lsb:active{background:-webkit-gradient(linear,left top,left bottom,from(#ccc),to(#ddd))}
     .ds{display:-moz-inline-box}
-    .ds{border-bottom:solid 1px #e7e7e7;border-right:solid 1px #e7e7e7;display:inline-block;margin:3px 0 4px;margin-left:4px;margin-right:3px:height:32px}
-    .lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px;display:block}
-    .lsb{background:url(/images/srpr/nav_logo13.png) bottom;font:15px arial,sans-serif;border:none;cursor:pointer;height:30px;margin:0;outline:0;vertical-align:top}
+    .ds{border-bottom:solid 1px #e7e7e7;border-right:solid 1px #e7e7e7;display:inline-block;margin:3px 0 4px;margin-left:4px;margin-right:3px:}
+    .lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;display:block}
+    .lsb{background:url(/images/srpr/nav_logo13.png) bottom;font:15px arial,sans-serif;border:none;cursor:pointer;margin:0;outline:0;vertical-align:top}
     .lsb:active{background:#ccc}
     #footer ul{list-style-type:none;padding:0}
     #footer a{display:inline-block;color:#444;font-size:10pt;font-family:monospace;padding:5px}
@@ -105,8 +108,8 @@
   
   <div id="footer">
     <ul>
-      <li><a href="http://github.com/PeEllAvaj/google_pacman">GitHub PeEllAvaj/google_pacman</a></li>
-      <li><a href="http://google.com">&copy; 2010, Google</a></li>
+      <li><a href="http://github.com/PeEllAvaj/google_pacman">GitHub PeEllAvaj/google_pacman</a>
+      <a href="http://google.com">&copy; 2010, Google</a></li>
     </ul>
   </div>
   <script>google.pml && google.pml()</script>
